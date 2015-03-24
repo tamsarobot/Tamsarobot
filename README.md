@@ -10,7 +10,7 @@ PC side node includes
   1. Robot_mover(teleoperation--topic:cmd_vel)
   2. Odometry4 (Ttopic-/odom)
   3. rossserial_python
-  4. sick_wrappe
+  4. sick_wrappe(topic (scan/Laser)
   5. TF 
   6. RVIZ
 Arduiono_side
