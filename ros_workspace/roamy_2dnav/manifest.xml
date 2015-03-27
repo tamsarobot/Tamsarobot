@@ -1,0 +1,19 @@
+<package>
+  <description brief="roamy_2dnav">
+
+     roamy_2dnav
+
+  </description>
+  <author>hindigo</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/roamy_2dnav</url>
+  <depend package="move_base"/>
+  <depend package="robot_setup_tf"/>
+  <depend package="odometry4"/>
+  <depend package="sicktoolbox_wrapper"/>
+  <depend package="roscpp"/>
+
+</package>
+
+

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<launch>
+
+<node pkg="sicktoolbox_wrapper" type="sicklms" name="sicklms" >
+ <param name="baud" value="38400" />
+ <param name="port" value="/dev/ttyUSB1"/>
+</node>
+<node pkg="odometry4" type="odometry4" name="odometry4" output="screen"/>
+<node pkg="robot_setup_tf" type="robot_setup_tf" name="robot_setup_tf" output="screen"> 
+ <param name="robot_setup_tf" value="param_value"/>
+</node>
+</launch>
+

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+   <include file="$(find roamy_2dnav)/roamy_configuration.launch"/>
+   <include file="$(find roamy_2dnav)/move_base_all.launch"/>
+</launch>
+
+

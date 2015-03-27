@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "odometry4")
+set(odometry4_MAINTAINER "hsk <hsk@todo.todo>")
+set(odometry4_DEPRECATED "")
+set(odometry4_VERSION "0.0.0")
+set(odometry4_BUILD_DEPENDS "message_generation" "geometry_msgs" "nav_msgs" "roscpp" "rospy" "rosserial_arduino" "sensor_msgs" "std_msgs" "tf")
+set(odometry4_RUN_DEPENDS "message_runtime" "geometry_msgs" "nav_msgs" "roscpp" "rospy" "rosserial_arduino" "sensor_msgs" "std_msgs" "tf")
+set(odometry4_BUILDTOOL_DEPENDS "catkin")
