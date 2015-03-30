@@ -13,9 +13,11 @@ PC side node includes
   4. sick_wrappe(topic (scan/Laser)
   5. TF 
   6. RVIZ
+
 Arduiono_side
   subscrives cmd_vel --> serial-->BLDC command
   publish odometruy info
+
 PARTS
   1.sernsor:SICK Laser Scanner(could be others ex)Neato scanner etc)
   2.micro_infinity MEMS sensor
